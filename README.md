@@ -120,3 +120,10 @@ Enter col [0 to 7]:
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
 ```
+
+
+```
+Sorry, you lose Player 2!
+
+Do you want to play again? (Y/N)
+```

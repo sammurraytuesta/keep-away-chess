@@ -16,7 +16,7 @@ Game logic developed through Keep Away Chess rules and implemented using 2D arra
         <li><a href="#Rooks">Rooks</a></li>
       </ul>
     </li>
-    <li><a href="#Thank-You!">Thank You!</a></li>
+    <li><a href="#Thank-You">Thank You!</a></li>
   </ol>
 </details>
 

@@ -4,13 +4,13 @@ Game logic developed through Keep Away Chess rules and implemented through a pro
 [![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)](https://www.python.org/) [![java-version](https://img.shields.io/badge/Java%20SE-14-blue.svg)](https://shields.io/) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/sammurraytuesta)
 
 ```
-Would you like to play as Bishops or Rooks? (B/R)
+Would you like to play as Bishops or Rooks? (B/R) B
 ```
 
 ```
 Player 1's turn!
-Enter row [0 to 7]: 
-Enter col [0 to 7]:
+Enter row [0 to 7]: 3
+Enter col [0 to 7]: 4
 ```
 
 ```
@@ -21,7 +21,7 @@ Enter col [0 to 7]:
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   |   |
+|   |   |   |   | B |   |   |   |
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
@@ -35,8 +35,8 @@ Enter col [0 to 7]:
 
 ```
 Player 2's turn!
-Enter row [0 to 7]: 
-Enter col [0 to 7]:
+Enter row [0 to 7]: 5
+Enter col [0 to 7]: 2
 ```
 
 ```
@@ -47,11 +47,11 @@ Enter col [0 to 7]:
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   |   |
+|   |   |   |   | B |   |   |   |
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   |   |
+|   |   | X |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
@@ -62,17 +62,17 @@ Enter col [0 to 7]:
 ```
 Sorry, you lose Player 2!
 
-Do you want to play again? (Y/N)
+Do you want to play again? (Y/N) Y
 ```
 
 ```
-Would you like to play as Bishops or Rooks? (B/R)
+Would you like to play as Bishops or Rooks? (B/R) R
 ```
 
 ```
 Player 1's turn!
-Enter row [0 to 7]: 
-Enter col [0 to 7]:
+Enter row [0 to 7]: 3
+Enter col [0 to 7]: 1
 ```
 
 ```
@@ -83,7 +83,7 @@ Enter col [0 to 7]:
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   |   |
+|   | R |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
@@ -97,8 +97,8 @@ Enter col [0 to 7]:
 
 ```
 Player 2's turn!
-Enter row [0 to 7]: 
-Enter col [0 to 7]:
+Enter row [0 to 7]: 3
+Enter col [0 to 7]: 5
 ```
 
 ```
@@ -109,7 +109,7 @@ Enter col [0 to 7]:
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   |   |
+|   | R |   |   |   | X |   |   |
 +---+---+---+---+---+---+---+---+
 |   |   |   |   |   |   |   |   |
 +---+---+---+---+---+---+---+---+
@@ -125,5 +125,5 @@ Enter col [0 to 7]:
 ```
 Sorry, you lose Player 2!
 
-Do you want to play again? (Y/N)
+Do you want to play again? (Y/N) N
 ```

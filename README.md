@@ -127,3 +127,7 @@ Sorry, you lose Player 2!
 
 Do you want to play again? (Y/N) N
 ```
+
+```
+Someone is a sore loser...
+```

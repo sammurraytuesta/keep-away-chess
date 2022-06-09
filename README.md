@@ -170,4 +170,4 @@ In the case that you decide to stop playing, the program will then terminate wit
 Someone is a sore loser...
 ```
 ## Thank You!
-I hope you enjoy playing Keep Away Chess!
+Enjoy playing Keep Away Chess!
